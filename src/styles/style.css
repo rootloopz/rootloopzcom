@@ -1,0 +1,173 @@
+body {
+    background-color: #282828;
+    color: #fbf1c7;
+}
+
+
+h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h6 {
+   color: #fabd2f;
+
+}
+
+hr {
+    color: #cccccc;
+    width: 50%;
+}
+
+h2 {
+    color:#8ec07c;
+}
+
+
+.mainBtn {
+  color:#fabd2f
+}
+
+.mainBtn:hover {
+  color:#d3869b
+}
+
+a {
+    color:#fbf1c7;
+}
+
+a:hover {
+    color: #458588;
+    
+}
+
+.btn:hover {
+    color: #282828;
+    border: 3px dashed #d3869b;
+    background-color: #d3869b;
+    
+}
+
+.btn {
+    width: 110px;
+    border: 3px dashed #d3869b;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: x-large;
+    margin: 0.5em;
+
+}
+
+.homePage {
+  padding-top: 3em;
+}
+
+h5 {
+    color: #fe8019;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline {
+    position: relative;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.timeline-item::before,
+.timeline-item::after {
+    content: '';
+    display: table;
+}
+
+.timeline-item::after {
+    clear: both;
+}
+
+.timeline-item::before {
+    position: absolute;
+    top: 8px;
+    left: -12px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #ccc;
+}
+
+.timeline-item .timeline-text {
+    position: relative;
+    margin-left: 60px;
+}
+
+.timeline-item .timeline-text h4 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.timeline-item .timeline-text p {
+    margin-bottom: 0;
+}
+
+.timeline-item .timeline-time {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #8ec07c;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.timeline-item .timeline-time span {
+    display: inline-block;
+    transform: rotate(270deg);
+}
+
+.timeline-item:nth-child(odd) .timeline-text {
+    margin-left: 0;
+    margin-right: 60px;
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        padding: 30px 0;
+    }
+
+    .timeline-item .timeline-text {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .timeline-item .timeline-time {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-bottom: 10px;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-text {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.vertical-line {
+  border-left: 10px solid wheat;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
